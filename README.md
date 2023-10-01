@@ -5,7 +5,9 @@ By Vinuk Atukorala
 - To start the server, enter the following command in the terminal:
 
     ```node index.js```
-
+- To populate random 1000 tasks into the DB, enter the following command in the terminal:
+  
+    ```node populate.js```
 ---
 - Next, open Postman API
 
@@ -61,5 +63,6 @@ To make a DELETE Request:
 2. Add the task number you want to delete to the end of the URL
 Ex: ```http://localhost:3000/tasks/3```
 3. Click ```Send```
+
 
 
